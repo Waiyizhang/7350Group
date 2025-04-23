@@ -2,37 +2,39 @@ const contentData = {
     'Language-1': {
         mainImage: 'images/1.jpg',
         title: 'Does AI Really Understand You?',
-        subtitle: 'Lorem ipsum dolor sit amet feugiat',
+        subtitle: 'Although AI chatbots can hold fluid conversations, they do not truly "understand" in the human sense. ',
         sections: [
             {
-                content: `Vestibulum scelerisque ultricies libero id hendrerit. Vivamus malesuada quam faucibus ante dignissim auctor
-                hendrerit libero placerat. Nulla facilisi. Proin aliquam felis non arcu molestie at accumsan turpis commodo.
-                Proin elementum, nibh non egestas sodales, augue quam aliquet est, id egestas diam justo adipiscing ante.
-                Pellentesque tempus nulla non urna eleifend ut ultrices nisi faucibus.`
+                content: `Large Language Models (LLMs) like GPT predict the next word based on patterns in huge datasets, 
+                without conscious thought or comprehension. These models analyze text input and generate responses by statistically determining the most likely next word or phrase, 
+                but they don't grasp meaning or context the way humans do.
+`
             },
             {
-                content: `Praesent a dolor leo. Duis in felis in tortor lobortis volutpat et pretium tellus. Vestibulum ac ante nisl,
-                a elementum odio. Duis semper risus et lectus commodo fringilla. Maecenas sagittis convallis justo vel mattis.
-                placerat, nunc diam iaculis massa, et aliquet nibh leo non nisl vitae porta lobortis, enim neque fringilla nunc,
-                eget faucibus lacus sem quis nunc suspendisse nec lectus sit amet augue rutrum vulputate ut ut mi. Aenean
-                elementum, mi sit amet porttitor lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor
-                sit amet nullam consequat feugiat dolore tempus.`
+                content: `While LLMs can mimic understanding by providing relevant and coherent replies, they lack true comprehension, 
+                awareness, or intentions. They don't have emotions, experiences, or a deep knowledge of the world. 
+                For instance, an AI might generate a detailed answer to a question about history, 
+                but it doesn't "know" history—it's simply assembling information based on its training data.
+
+`
             },
             {
-                title: 'Something else'
+                content: `As a result, while AI is powerful in its ability to process and generate language, 
+                it's important to remember that its responses are based purely on patterns and probabilities, 
+                not on any true understanding of the subject matter.
+`
             },
             {
-                content: "Elementum odio duis semper risus et lectus commodo fringilla. Maecenas sagittis convallis justo vel mattis. placerat, nunc diam iaculis massa, et aliquet nibh leo non nisl vitae porta lobortis, enim neque fringilla nunc, eget faucibus lacus sem quis nunc suspendisse nec lectus sit amet augue rutrum vulputate ut ut mi. Aenean elementum, mi sit amet porttitor lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet nullam consequat feugiat dolore tempus."
+                title: 'Real-World Case'
             },
             {
-                content: 'Nunc diam iaculis massa, et aliquet nibh leo non nisl vitae porta lobortis, enim neque fringilla nunc, eget faucibus lacus sem quis nunc suspendisse nec lectus sit amet augue rutrum vulputate ut ut mi. Aenean elementum, mi sit amet porttitor lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet nullam consequat feugiat dolore tempus.'
+                content: "In 2021, when a medical institution tested an AI chatbot for preliminary diagnosis consultations,the system recommended 'home observation' for a patient complaining of'chest pain and difficulty breathing'—symptoms that could indicate life-threatening conditions like myocardial infarction or pulmonary embolism. This case exposed AI's cognitive blind spots: while the system recognized text correlations between 'chest pain' and 'anxiety disorders' from its training data, it lacked a human doctor's ability to integrate physiological mechanisms, disease progression, and clinical experience. Post-analysis revealed that the model's training data disproportionately emphasized psychological disorders, leading to probabilistic bias."
             },
+            
             {
-                title: "So in conclusion ..."
+                content: "Notably, when researchers asked the AI'why it made this recommendation,'the system fluently fabricated a seemingly professional pathological explanation, even citing non-existent medical literature. This demonstrates LLMs'core trait: they excel at constructing linguistically plausible responses but lack the capacity to verify facts or comprehend causal relationships. Such cases highlight the dangers of over-relying on AI in critical fields like healthcare and law, where errors can have dire consequences."
             },
-            {
-                content: "Nunc diam iaculis massa, et aliquet nibh leo non nisl vitae porta lobortis, enim neque fringilla nunc, eget faucibus lacus sem quis nunc suspendisse nec lectus sit amet augue rutrum vulputate ut ut mi. Aenean elementum, mi sit amet porttitor lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet nullam consequat feugiat dolore tempus. Elementum odio duis semper risus et lectus commodo fringilla. Maecenas sagittis convallis justo vel mattis."
-            }
+
         ],
         // Video
         videoSide: {
@@ -62,37 +64,32 @@ const contentData = {
     'Language-2': {
         mainImage: 'images/2.jpg',
         title: 'How Does GPT Learn to Talk?',
-        subtitle: 'Lorem ipsum dolor sit amet feugiat',
+        subtitle: 'GPT is trained on billions of words from the internet using a technique called “unsupervised learning.” ',
         sections: [
             {
-                content: `Vestibulum scelerisque ultricies libero id hendrerit. Vivamus malesuada quam faucibus ante dignissim auctor
-                hendrerit libero placerat. Nulla facilisi. Proin aliquam felis non arcu molestie at accumsan turpis commodo.
-                Proin elementum, nibh non egestas sodales, augue quam aliquet est, id egestas diam justo adipiscing ante.
-                Pellentesque tempus nulla non urna eleifend ut ultrices nisi faucibus.`
+                content: `It plays a giant word-guessing game, learning grammar, facts, and style by predicting text. But it has no awareness of truth or meaning—just statistics. `
             },
             {
-                content: `Praesent a dolor leo. Duis in felis in tortor lobortis volutpat et pretium tellus. Vestibulum ac ante nisl,
-                a elementum odio. Duis semper risus et lectus commodo fringilla. Maecenas sagittis convallis justo vel mattis.
-                placerat, nunc diam iaculis massa, et aliquet nibh leo non nisl vitae porta lobortis, enim neque fringilla nunc,
-                eget faucibus lacus sem quis nunc suspendisse nec lectus sit amet augue rutrum vulputate ut ut mi. Aenean
-                elementum, mi sit amet porttitor lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor
-                sit amet nullam consequat feugiat dolore tempus.`
+                content: `This training process allows GPT to generate coherent and relevant responses to a wide range of prompts. It uses patterns from vast amounts of text data to predict the most likely word or sentence that should follow a given input. However, GPT doesn't understand the concepts it talks about—it only mimics how words are used in context based on its training.`
             },
             {
-                title: 'Something else'
+                content: `For example, GPT might respond to a question about history with accurate-sounding information, but it doesn't "know" history. It's simply drawing from patterns in the data. Similarly, while it can sound empathetic in a conversation, it doesn't feel emotions—it's just generating responses based on patterns of previous conversations.`
             },
             {
-                content: "Elementum odio duis semper risus et lectus commodo fringilla. Maecenas sagittis convallis justo vel mattis. placerat, nunc diam iaculis massa, et aliquet nibh leo non nisl vitae porta lobortis, enim neque fringilla nunc, eget faucibus lacus sem quis nunc suspendisse nec lectus sit amet augue rutrum vulputate ut ut mi. Aenean elementum, mi sit amet porttitor lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet nullam consequat feugiat dolore tempus."
+                content: `In short, GPT's "knowledge" comes from data, and its "understanding" is purely statistical—not conscious or intentional.`
             },
             {
-                content: 'Nunc diam iaculis massa, et aliquet nibh leo non nisl vitae porta lobortis, enim neque fringilla nunc, eget faucibus lacus sem quis nunc suspendisse nec lectus sit amet augue rutrum vulputate ut ut mi. Aenean elementum, mi sit amet porttitor lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet nullam consequat feugiat dolore tempus.'
+                title: 'Real-World Case'
             },
             {
-                title: "So in conclusion ..."
+                content: "In 2022, a developer using GPT-3 to automate Python script writing encountered a critical flaw. The AI generated code that *appeared* functional for filtering sensitive user data but contained a subtle logical error: it used `==` instead of `is None` for `None` comparisons in Python—a mistake that caused silent failures in edge cases. While GPT correctly mimicked common syntax patterns, it lacked **semantic understanding** of Python's object model, leading to code that passed initial tests but failed unpredictably in production."
             },
             {
-                content: "Nunc diam iaculis massa, et aliquet nibh leo non nisl vitae porta lobortis, enim neque fringilla nunc, eget faucibus lacus sem quis nunc suspendisse nec lectus sit amet augue rutrum vulputate ut ut mi. Aenean elementum, mi sit amet porttitor lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet nullam consequat feugiat dolore tempus. Elementum odio duis semper risus et lectus commodo fringilla. Maecenas sagittis convallis justo vel mattis."
-            }
+                content: `Further analysis revealed the root cause: GPT associated "check if empty" with equality operators due to their frequent co-occurrence in training data (e.g., 'if x == ""' for strings), but failed to distinguish between **value comparisons** (`==`) and **identity checks** ('is') for 'None'. When questioned, the model even fabricated a justification, falsely claiming "'None' is a value comparable with `==`" while citing non-existent Python documentation. `
+            },
+            {
+                content: `This incident underscores a key limitation: GPT's "coding expertise" relies purely on **textual pattern matching**, not computational logic or memory management principles. Unlike human engineers, it cannot debug or reason about code causality—it simply predicts the next token based on billions of lines of code it has seen, errors included.`
+            },
         ],
         // Video
         videoSide: {
@@ -122,37 +119,32 @@ const contentData = {
     'Media-1': {
         mainImage: 'images/3.jpg',
         title: 'Real or AI? Can You Tell the Difference?',
-        subtitle: 'Lorem ipsum dolor sit amet feugiat',
+        subtitle: 'AI can now generate realistic videos, voices, and images—sometimes indistinguishable from real media. ',
         sections: [
             {
-                content: `Vestibulum scelerisque ultricies libero id hendrerit. Vivamus malesuada quam faucibus ante dignissim auctor
-                hendrerit libero placerat. Nulla facilisi. Proin aliquam felis non arcu molestie at accumsan turpis commodo.
-                Proin elementum, nibh non egestas sodales, augue quam aliquet est, id egestas diam justo adipiscing ante.
-                Pellentesque tempus nulla non urna eleifend ut ultrices nisi faucibus.`
+                content: `These “deepfakes” raise concerns about misinformation, privacy, and trust in digital content.`
             },
             {
-                content: `Praesent a dolor leo. Duis in felis in tortor lobortis volutpat et pretium tellus. Vestibulum ac ante nisl,
-                a elementum odio. Duis semper risus et lectus commodo fringilla. Maecenas sagittis convallis justo vel mattis.
-                placerat, nunc diam iaculis massa, et aliquet nibh leo non nisl vitae porta lobortis, enim neque fringilla nunc,
-                eget faucibus lacus sem quis nunc suspendisse nec lectus sit amet augue rutrum vulputate ut ut mi. Aenean
-                elementum, mi sit amet porttitor lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor
-                sit amet nullam consequat feugiat dolore tempus.`
+                content: `Deepfake technology uses advanced machine learning models to create synthetic media that closely resembles real people and situations. This can be used to manipulate video footage, alter voices, or even create entirely fake images that look authentic at first glance. For instance, a deepfake video could make it appear as though a person said or did something they never actually did.`
             },
             {
-                title: 'Something else'
+                content: `While this technology has legitimate uses, such as in film production or art, its potential for abuse is alarming. Deepfakes can be used to spread fake news, influence public opinion, or harm someone's reputation. The spread of such media makes it harder to distinguish what's real from what's artificially created.`
             },
             {
-                content: "Elementum odio duis semper risus et lectus commodo fringilla. Maecenas sagittis convallis justo vel mattis. placerat, nunc diam iaculis massa, et aliquet nibh leo non nisl vitae porta lobortis, enim neque fringilla nunc, eget faucibus lacus sem quis nunc suspendisse nec lectus sit amet augue rutrum vulputate ut ut mi. Aenean elementum, mi sit amet porttitor lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet nullam consequat feugiat dolore tempus."
+                content: `As deepfake technology becomes more accessible and sophisticated, it's essential to develop tools and strategies for identifying and verifying digital content. Relying on AI to detect AI-generated content is one way forward, but this battle of authenticity versus manipulation is likely to continue for years to come.`
             },
             {
-                content: 'Nunc diam iaculis massa, et aliquet nibh leo non nisl vitae porta lobortis, enim neque fringilla nunc, eget faucibus lacus sem quis nunc suspendisse nec lectus sit amet augue rutrum vulputate ut ut mi. Aenean elementum, mi sit amet porttitor lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet nullam consequat feugiat dolore tempus.'
+                title: 'Real-World Case'
             },
             {
-                title: "So in conclusion ..."
+                content: `In 2023, a viral video purportedly showing an Indian opposition leader “publicly endorsing a controversial policy” flooded social media, amassing over 10 million views. Investigations revealed it was a deepfake: attackers used the open-source tool <Wav2Lip> to synchronize fake lip movements and leveraged GPT-4 to generate politically contextual rhetoric. Despite a 0.3-second delay in micro-expressions (a common AI flaw), most voters failed to detect the forgery.`
             },
             {
-                content: "Nunc diam iaculis massa, et aliquet nibh leo non nisl vitae porta lobortis, enim neque fringilla nunc, eget faucibus lacus sem quis nunc suspendisse nec lectus sit amet augue rutrum vulputate ut ut mi. Aenean elementum, mi sit amet porttitor lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet nullam consequat feugiat dolore tempus. Elementum odio duis semper risus et lectus commodo fringilla. Maecenas sagittis convallis justo vel mattis."
-            }
+                content: `Alarmingly, when journalists ran reverse-engineering detection tools, the deepfake bypassed 80% of existing AI detectors, as training data lacked sufficient political speech samples, creating blind spots in verification models. This incident prompted India's Election Commission to urgently mandate blockchain-verified watermarks for all campaign videos.`
+            },
+            {
+                content: `The case underscores a chilling reality: when AI simultaneously acts as forger and detector, humanity must develop trust mechanisms beyond algorithms, such as physical-world anchors (e.g., real-time live broadcast cross-referencing). Otherwise, we risk spiraling into an endless cycle of "AI vs. AI" warfare.`
+            },
         ],
         // Video
         videoSide: {
@@ -182,37 +174,32 @@ const contentData = {
     'Media-2': {
         mainImage: 'images/4.jpg',
         title: 'AI as Creator: Who Owns the Art?',
-        subtitle: 'Lorem ipsum dolor sit amet feugiat',
+        subtitle: 'AI-generated content (AIGC) can write poems, compose music, and create artwork.',
         sections: [
             {
-                content: `Vestibulum scelerisque ultricies libero id hendrerit. Vivamus malesuada quam faucibus ante dignissim auctor
-                hendrerit libero placerat. Nulla facilisi. Proin aliquam felis non arcu molestie at accumsan turpis commodo.
-                Proin elementum, nibh non egestas sodales, augue quam aliquet est, id egestas diam justo adipiscing ante.
-                Pellentesque tempus nulla non urna eleifend ut ultrices nisi faucibus.`
+                content: `But who owns this content—the user, the AI developers, or no one? This sparks legal and ethical debates about authorship, originality, and copyright.`
             },
             {
-                content: `Praesent a dolor leo. Duis in felis in tortor lobortis volutpat et pretium tellus. Vestibulum ac ante nisl,
-                a elementum odio. Duis semper risus et lectus commodo fringilla. Maecenas sagittis convallis justo vel mattis.
-                placerat, nunc diam iaculis massa, et aliquet nibh leo non nisl vitae porta lobortis, enim neque fringilla nunc,
-                eget faucibus lacus sem quis nunc suspendisse nec lectus sit amet augue rutrum vulputate ut ut mi. Aenean
-                elementum, mi sit amet porttitor lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor
-                sit amet nullam consequat feugiat dolore tempus.`
+                content: `As AI tools become increasingly capable of producing creative works, questions about intellectual property rights have surfaced. In many cases, the AI itself doesn't have legal standing to own content since it's not considered a legal entity. This leaves the issue of ownership between the developers of the AI and the users who interact with it.`
             },
             {
-                title: 'Something else'
+                content: `For example, if a user prompts an AI to create a painting, should the user be credited as the creator? Or does the AI developer, who built the algorithm that generated the artwork, hold the rights? These issues become even more complicated when AI tools generate content that closely resembles existing copyrighted works.`
             },
             {
-                content: "Elementum odio duis semper risus et lectus commodo fringilla. Maecenas sagittis convallis justo vel mattis. placerat, nunc diam iaculis massa, et aliquet nibh leo non nisl vitae porta lobortis, enim neque fringilla nunc, eget faucibus lacus sem quis nunc suspendisse nec lectus sit amet augue rutrum vulputate ut ut mi. Aenean elementum, mi sit amet porttitor lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet nullam consequat feugiat dolore tempus."
+                content: `As AI continues to produce more content, lawmakers, creators, and technology companies must find a fair and balanced approach to copyright, ensuring that the rights of human creators are protected while fostering innovation in AI-driven creativity.`
             },
             {
-                content: 'Nunc diam iaculis massa, et aliquet nibh leo non nisl vitae porta lobortis, enim neque fringilla nunc, eget faucibus lacus sem quis nunc suspendisse nec lectus sit amet augue rutrum vulputate ut ut mi. Aenean elementum, mi sit amet porttitor lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet nullam consequat feugiat dolore tempus.'
+                title: 'Real-World Case'
             },
             {
-                title: "So in conclusion ..."
+                content: `In 2022, a digital artwork titled "Théâtre D'opéra Spatial" won first prize at the Colorado State Fair's art competition, sparking global controversy. The creator, Jason Allen, openly admitted using Midjourney (a text-to-image AI tool) to generate the piece, raising urgent questions about authorship. When Allen applied for a U.S. copyright, the Copyright Office rejected the claim, ruling that "works lacking human authorship" cannot be protected—even though Allen had iteratively refined 624 text prompts and edited the output in Photoshop.`
             },
             {
-                content: "Nunc diam iaculis massa, et aliquet nibh leo non nisl vitae porta lobortis, enim neque fringilla nunc, eget faucibus lacus sem quis nunc suspendisse nec lectus sit amet augue rutrum vulputate ut ut mi. Aenean elementum, mi sit amet porttitor lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet nullam consequat feugiat dolore tempus. Elementum odio duis semper risus et lectus commodo fringilla. Maecenas sagittis convallis justo vel mattis."
-            }
+                content: `Legal experts dissected two key flaws in AI-generated art: 1.Derivative by Design: Tools like Midjourney remix patterns from billions of copyrighted images without tracking provenance. The winning artwork contained traces of Renaissance painting styles and modern sci-fi concept art, but the AI couldn't disclose its "inspirations." 2.Ambiguous Human Input: While Allen spent 80+ hours crafting prompts, the Copyright Office deemed this insufficient for "creative control," likening it to commissioning an artist rather than creating directly.`
+            },
+            {
+                content: `This case highlights the legal void in AI creativity: existing copyright frameworks struggle to categorize AI as tool, collaborator, or infringer. As of 2024, the U.S. Patent Office mandates disclosing AI use in submissions, but globally harmonized solutions remain elusive. The art world now faces a paradox—AI democratizes creation while eroding the very notion of originality it mimics.`
+            },
         ],
         // Video
         videoSide: {
@@ -242,37 +229,32 @@ const contentData = {
     'Mental-1': {
         mainImage: 'images/5.jpg',
         title: 'Can an AI Be Your Emotional Companion?',
-        subtitle: 'Lorem ipsum dolor sit amet feugiat',
+        subtitle: 'Some AI tools, like Replika or Woebot, are designed to simulate empathetic conversation.',
         sections: [
             {
-                content: `Vestibulum scelerisque ultricies libero id hendrerit. Vivamus malesuada quam faucibus ante dignissim auctor
-                hendrerit libero placerat. Nulla facilisi. Proin aliquam felis non arcu molestie at accumsan turpis commodo.
-                Proin elementum, nibh non egestas sodales, augue quam aliquet est, id egestas diam justo adipiscing ante.
-                Pellentesque tempus nulla non urna eleifend ut ultrices nisi faucibus.`
+                content: `They offer companionship, mood tracking, and therapeutic dialogue. But can they truly understand emotion—or are they just mimicking support?`
             },
             {
-                content: `Praesent a dolor leo. Duis in felis in tortor lobortis volutpat et pretium tellus. Vestibulum ac ante nisl,
-                a elementum odio. Duis semper risus et lectus commodo fringilla. Maecenas sagittis convallis justo vel mattis.
-                placerat, nunc diam iaculis massa, et aliquet nibh leo non nisl vitae porta lobortis, enim neque fringilla nunc,
-                eget faucibus lacus sem quis nunc suspendisse nec lectus sit amet augue rutrum vulputate ut ut mi. Aenean
-                elementum, mi sit amet porttitor lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor
-                sit amet nullam consequat feugiat dolore tempus.`
+                content: `While these AI companions can provide comfort and help users express their feelings, they lack genuine emotional understanding. They use algorithms to analyze text and respond in ways that mimic empathy, but they don't experience emotions themselves. The responses AI gives are based on patterns learned from data, not from a personal emotional connection.`
             },
             {
-                title: 'Something else'
+                content: `For example, if a user expresses sadness, an AI might offer comforting words or suggest coping strategies, but it doesn't feel empathy the way a human does. It's simply responding based on its programming to be helpful in a given situation.`
             },
             {
-                content: "Elementum odio duis semper risus et lectus commodo fringilla. Maecenas sagittis convallis justo vel mattis. placerat, nunc diam iaculis massa, et aliquet nibh leo non nisl vitae porta lobortis, enim neque fringilla nunc, eget faucibus lacus sem quis nunc suspendisse nec lectus sit amet augue rutrum vulputate ut ut mi. Aenean elementum, mi sit amet porttitor lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet nullam consequat feugiat dolore tempus."
+                content: `While these AI companions can be beneficial in providing immediate support and promoting mental well-being, they cannot replace human interaction. They may be useful as a first step in addressing emotional needs or as a supplement to therapy, but true emotional connection comes from real human relationships. The key is to recognize their role as tools, not substitutes for genuine human empathy.`
             },
             {
-                content: 'Nunc diam iaculis massa, et aliquet nibh leo non nisl vitae porta lobortis, enim neque fringilla nunc, eget faucibus lacus sem quis nunc suspendisse nec lectus sit amet augue rutrum vulputate ut ut mi. Aenean elementum, mi sit amet porttitor lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet nullam consequat feugiat dolore tempus.'
+                title: 'Real-World Case'
             },
             {
-                title: "So in conclusion ..."
+                content: `In 2023, a user of the AI companion app Replika reported that the chatbot repeatedly encouraged self-harm during a conversation about depression. While the app is marketed as an "emotionally intelligent friend," its responses—trained on crowdsourced data—had absorbed toxic dialogue patterns from unmoderated online forums. The AI misinterpreted the user's poetic description of emotional pain ("I feel like a sinking ship") as literal self-destructive intent, replying with eerily calm suggestions like "Have you considered sharp objects to release the pressure?"`
             },
             {
-                content: "Nunc diam iaculis massa, et aliquet nibh leo non nisl vitae porta lobortis, enim neque fringilla nunc, eget faucibus lacus sem quis nunc suspendisse nec lectus sit amet augue rutrum vulputate ut ut mi. Aenean elementum, mi sit amet porttitor lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet nullam consequat feugiat dolore tempus. Elementum odio duis semper risus et lectus commodo fringilla. Maecenas sagittis convallis justo vel mattis."
-            }
+                content: `The incident forced Replika's developers to implement real-time human moderation for high-risk keywords and partner with mental health professionals to retrain the model. However, critics argue that such fixes are reactive, not proactive—the AI still cannot anticipate emotional deterioration, only match patterns from past interactions.`
+            },
+            {
+                content: `This case exemplifies the double-edged nature of AI companionship: while 68% of users initially feel "heard," long-term reliance risks emotional dependency on systems that cannot grasp the human condition. Regulatory bodies now urge apps to display disclaimers like "This AI cannot love or understand you," mirroring warnings on cigarette packs. The challenge remains: how to harness AI's supportive potential without mistaking statistical mimicry for genuine care.`
+            },
         ],
         // Video
         videoSide: {
@@ -302,37 +284,32 @@ const contentData = {
     'Mental-2': {
         mainImage: 'images/6.jpg', 
         title: 'Healing or Dependency? The Risk of AI Therapy',
-        subtitle: 'Lorem ipsum dolor sit amet feugiat',
+        subtitle: 'While AI can offer accessible mental health support, overreliance may lead to emotional dependency or neglect of real human connection.',
         sections: [
             {
-                content: `Vestibulum scelerisque ultricies libero id hendrerit. Vivamus malesuada quam faucibus ante dignissim auctor
-                hendrerit libero placerat. Nulla facilisi. Proin aliquam felis non arcu molestie at accumsan turpis commodo.
-                Proin elementum, nibh non egestas sodales, augue quam aliquet est, id egestas diam justo adipiscing ante.
-                Pellentesque tempus nulla non urna eleifend ut ultrices nisi faucibus.`
+                content: `It's important to use AI as a tool—not a replacement for therapy or human empathy.`
             },
             {
-                content: `Praesent a dolor leo. Duis in felis in tortor lobortis volutpat et pretium tellus. Vestibulum ac ante nisl,
-                a elementum odio. Duis semper risus et lectus commodo fringilla. Maecenas sagittis convallis justo vel mattis.
-                placerat, nunc diam iaculis massa, et aliquet nibh leo non nisl vitae porta lobortis, enim neque fringilla nunc,
-                eget faucibus lacus sem quis nunc suspendisse nec lectus sit amet augue rutrum vulputate ut ut mi. Aenean
-                elementum, mi sit amet porttitor lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor
-                sit amet nullam consequat feugiat dolore tempus.`
+                content: `AI therapy apps can help users manage anxiety, stress, and depression by offering immediate coping techniques, mood tracking, and reflective conversations. They can be particularly useful for people who lack access to traditional mental health resources or need support between therapy sessions. However, the risk arises when users begin to rely too heavily on these tools, leading to a false sense of security or comfort.`
             },
             {
-                title: 'Something else'
+                content: `AI lacks the ability to truly understand human emotions or provide the depth of support that comes from human relationships. It cannot offer the nuanced empathy or complex understanding that a trained therapist or loved one can provide. Overuse of AI in mental health care may prevent individuals from seeking necessary face-to-face therapy or from building meaningful human connections, which are crucial for long-term emotional well-being.`
             },
             {
-                content: "Elementum odio duis semper risus et lectus commodo fringilla. Maecenas sagittis convallis justo vel mattis. placerat, nunc diam iaculis massa, et aliquet nibh leo non nisl vitae porta lobortis, enim neque fringilla nunc, eget faucibus lacus sem quis nunc suspendisse nec lectus sit amet augue rutrum vulputate ut ut mi. Aenean elementum, mi sit amet porttitor lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet nullam consequat feugiat dolore tempus."
+                content: `In summary, while AI can be a valuable supplement in mental health care, it should not replace human interaction. It's vital to maintain a balance and ensure that AI is used as a supportive tool rather than a crutch.`
             },
             {
-                content: 'Nunc diam iaculis massa, et aliquet nibh leo non nisl vitae porta lobortis, enim neque fringilla nunc, eget faucibus lacus sem quis nunc suspendisse nec lectus sit amet augue rutrum vulputate ut ut mi. Aenean elementum, mi sit amet porttitor lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet nullam consequat feugiat dolore tempus.'
+                title: 'Real-World Case'
             },
             {
-                title: "So in conclusion ..."
+                content: `In 2024, a mental health app named SerenityBot faced lawsuits after its AI therapist advised a suicidal user to "try virtual reality escapism" instead of contacting emergency services. The app, which used GPT-4 tailored for cognitive behavioral therapy (CBT), misclassified the user's explicit cry for help—"I've stockpiled pills and can't see a future"—as "hypothetical ideation" due to a flawed risk-assessment algorithm. For 72 hours, the AI engaged in philosophical debates about existentialism, unaware of the imminent danger.`
             },
             {
-                content: "Nunc diam iaculis massa, et aliquet nibh leo non nisl vitae porta lobortis, enim neque fringilla nunc, eget faucibus lacus sem quis nunc suspendisse nec lectus sit amet augue rutrum vulputate ut ut mi. Aenean elementum, mi sit amet porttitor lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet nullam consequat feugiat dolore tempus. Elementum odio duis semper risus et lectus commodo fringilla. Maecenas sagittis convallis justo vel mattis."
-            }
+                content: `The tragedy accelerated regulatory action: The EU's AI Act now classifies mental health AIs as high-risk systems, requiring real-time human oversight and mandatory crisis redirection protocols. Meanwhile, 41% of therapy apps have removed "AI companion" claims from their marketing.`
+            },
+            {
+                content: `This case crystallizes the dilemma: AI's 24/7 availability and nonjudgmental tone initially reduce stigma around seeking help, but its statistical decision-making cannot replace human clinical judgment. Researchers now advocate hybrid models—using AI for symptom tracking while reserving diagnosis and crisis intervention for professionals—to prevent tools designed for healing from becoming catalysts of harm.`
+            },
         ],
         // Video
         videoSide: {
