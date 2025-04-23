@@ -3030,3 +3030,23 @@ input, select, textarea {
 		opacity: 1;
 		box-shadow: 0 6px 16px -8px #ffffff14,0 9px 28px #ffffff70,0 12px 48px 16px #ffffff08
 	}
+	.content-featured {
+		height: 300px;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+.RightSideContent, #VideoSide, #NewsSide {
+	h3 {
+		padding-top: 1em;
+    	margin: 0 0 2em 0;
+	}
+}
+
+.home-img {
+	background-image: url("../../images/home_icon.png");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 52px;
+	width: 225px;
+}
