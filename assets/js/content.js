@@ -1,7 +1,7 @@
 const contentData = {
     'Language-1': {
         mainImage: 'images/1.jpg',
-        title: 'Right sidebar',
+        title: 'Does AI Really Understand You?',
         subtitle: 'Lorem ipsum dolor sit amet feugiat',
         sections: [
             {
@@ -34,7 +34,7 @@ const contentData = {
                 content: "Nunc diam iaculis massa, et aliquet nibh leo non nisl vitae porta lobortis, enim neque fringilla nunc, eget faucibus lacus sem quis nunc suspendisse nec lectus sit amet augue rutrum vulputate ut ut mi. Aenean elementum, mi sit amet porttitor lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet nullam consequat feugiat dolore tempus. Elementum odio duis semper risus et lectus commodo fringilla. Maecenas sagittis convallis justo vel mattis."
             }
         ],
-        // 视频区
+        // Video
         videoSide: {
             video: 'https://vjs.zencdn.net/v/oceans.mp4',
             title: 'Sed etiam lorem nulla',
@@ -60,8 +60,8 @@ const contentData = {
         }
     },
     'Language-2': {
-        mainImage: 'images/1.jpg',
-        title: 'Right sidebar',
+        mainImage: 'images/2.jpg',
+        title: 'How Does GPT Learn to Talk?',
         subtitle: 'Lorem ipsum dolor sit amet feugiat',
         sections: [
             {
@@ -94,9 +94,9 @@ const contentData = {
                 content: "Nunc diam iaculis massa, et aliquet nibh leo non nisl vitae porta lobortis, enim neque fringilla nunc, eget faucibus lacus sem quis nunc suspendisse nec lectus sit amet augue rutrum vulputate ut ut mi. Aenean elementum, mi sit amet porttitor lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet nullam consequat feugiat dolore tempus. Elementum odio duis semper risus et lectus commodo fringilla. Maecenas sagittis convallis justo vel mattis."
             }
         ],
-        // 视频区
+        // Video
         videoSide: {
-            video: 'https://vjs.zencdn.net/v/oceans.mp4',
+            video: 'https://youtu.be/bSvTVREwSNw',
             title: 'Sed etiam lorem nulla',
             content: 'Lorem ipsum dolor sit amet sit veroeros sed amet blandit consequat veroeros lorem blandit adipiscing et feugiat phasellus tempus dolore ipsum lorem dolore.'
         },
@@ -120,8 +120,8 @@ const contentData = {
         }
     },
     'Media-1': {
-        mainImage: 'images/1.jpg',
-        title: 'Right sidebar',
+        mainImage: 'images/3.jpg',
+        title: 'Real or AI? Can You Tell the Difference?',
         subtitle: 'Lorem ipsum dolor sit amet feugiat',
         sections: [
             {
@@ -154,9 +154,9 @@ const contentData = {
                 content: "Nunc diam iaculis massa, et aliquet nibh leo non nisl vitae porta lobortis, enim neque fringilla nunc, eget faucibus lacus sem quis nunc suspendisse nec lectus sit amet augue rutrum vulputate ut ut mi. Aenean elementum, mi sit amet porttitor lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet nullam consequat feugiat dolore tempus. Elementum odio duis semper risus et lectus commodo fringilla. Maecenas sagittis convallis justo vel mattis."
             }
         ],
-        // 视频区
+        // Video
         videoSide: {
-            video: 'https://vjs.zencdn.net/v/oceans.mp4',
+            video: 'https://youtu.be/oWLHAuUoYqQ',
             title: 'Sed etiam lorem nulla',
             content: 'Lorem ipsum dolor sit amet sit veroeros sed amet blandit consequat veroeros lorem blandit adipiscing et feugiat phasellus tempus dolore ipsum lorem dolore.'
         },
@@ -180,8 +180,8 @@ const contentData = {
         }
     },
     'Media-2': {
-        mainImage: 'images/1.jpg',
-        title: 'Right sidebar',
+        mainImage: 'images/4.jpg',
+        title: 'AI as Creator: Who Owns the Art?',
         subtitle: 'Lorem ipsum dolor sit amet feugiat',
         sections: [
             {
@@ -214,9 +214,9 @@ const contentData = {
                 content: "Nunc diam iaculis massa, et aliquet nibh leo non nisl vitae porta lobortis, enim neque fringilla nunc, eget faucibus lacus sem quis nunc suspendisse nec lectus sit amet augue rutrum vulputate ut ut mi. Aenean elementum, mi sit amet porttitor lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet nullam consequat feugiat dolore tempus. Elementum odio duis semper risus et lectus commodo fringilla. Maecenas sagittis convallis justo vel mattis."
             }
         ],
-        // 视频区
+        // Video
         videoSide: {
-            video: 'https://vjs.zencdn.net/v/oceans.mp4',
+            video: 'https://youtu.be/UqZJPuyK9VY',
             title: 'Sed etiam lorem nulla',
             content: 'Lorem ipsum dolor sit amet sit veroeros sed amet blandit consequat veroeros lorem blandit adipiscing et feugiat phasellus tempus dolore ipsum lorem dolore.'
         },
@@ -240,8 +240,8 @@ const contentData = {
         }
     },
     'Mental-1': {
-        mainImage: 'images/1.jpg',
-        title: 'Right sidebar',
+        mainImage: 'images/5.jpg',
+        title: 'Can an AI Be Your Emotional Companion?',
         subtitle: 'Lorem ipsum dolor sit amet feugiat',
         sections: [
             {
@@ -274,9 +274,9 @@ const contentData = {
                 content: "Nunc diam iaculis massa, et aliquet nibh leo non nisl vitae porta lobortis, enim neque fringilla nunc, eget faucibus lacus sem quis nunc suspendisse nec lectus sit amet augue rutrum vulputate ut ut mi. Aenean elementum, mi sit amet porttitor lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet nullam consequat feugiat dolore tempus. Elementum odio duis semper risus et lectus commodo fringilla. Maecenas sagittis convallis justo vel mattis."
             }
         ],
-        // 视频区
+        // Video
         videoSide: {
-            video: 'https://vjs.zencdn.net/v/oceans.mp4',
+            video: 'https://youtu.be/j8BiIZIZBsU',
             title: 'Sed etiam lorem nulla',
             content: 'Lorem ipsum dolor sit amet sit veroeros sed amet blandit consequat veroeros lorem blandit adipiscing et feugiat phasellus tempus dolore ipsum lorem dolore.'
         },
@@ -300,8 +300,8 @@ const contentData = {
         }
     },
     'Mental-2': {
-        mainImage: 'images/1.jpg',
-        title: 'Right sidebar',
+        mainImage: 'images/6.jpg', 
+        title: 'Healing or Dependency? The Risk of AI Therapy',
         subtitle: 'Lorem ipsum dolor sit amet feugiat',
         sections: [
             {
@@ -334,9 +334,9 @@ const contentData = {
                 content: "Nunc diam iaculis massa, et aliquet nibh leo non nisl vitae porta lobortis, enim neque fringilla nunc, eget faucibus lacus sem quis nunc suspendisse nec lectus sit amet augue rutrum vulputate ut ut mi. Aenean elementum, mi sit amet porttitor lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet nullam consequat feugiat dolore tempus. Elementum odio duis semper risus et lectus commodo fringilla. Maecenas sagittis convallis justo vel mattis."
             }
         ],
-        // 视频区
+        // Video
         videoSide: {
-            video: 'https://vjs.zencdn.net/v/oceans.mp4',
+            video: 'https://youtu.be/ZkTvw3usMw4',
             title: 'Sed etiam lorem nulla',
             content: 'Lorem ipsum dolor sit amet sit veroeros sed amet blandit consequat veroeros lorem blandit adipiscing et feugiat phasellus tempus dolore ipsum lorem dolore.'
         },
@@ -401,7 +401,7 @@ function createVideoSide(content) {
     videoEl.poster = 'images/video-poster.jpg';
 
     const sourceEl = document.createElement('source');
-    sourceEl.src = 'https://vjs.zencdn.net/v/oceans.mp4';
+    sourceEl.src = content.videoSide.video
     sourceEl.type = 'video/mp4';
 
     // 确保视频加载完成后设置尺寸
